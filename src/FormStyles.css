@@ -1,0 +1,97 @@
+body {
+    background-color: #1a0033;
+    margin: 0px;
+    position: relative;
+}
+.big-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: rgb(51, 0, 170);
+    width: 800px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 992px) {
+    .container {
+        width: 350px;
+    }
+}
+#loan-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: capitalize;
+}
+.container form label {
+    margin-top: 10px;
+}
+.container form #name,
+.container form #phoneNumber,
+.container form #age,
+.container form #salary {
+    width: 100%;
+    max-width: 100%;
+    height: 25px;
+    outline: none;
+}
+.container form .header {
+    text-transform: capitalize;
+    border-bottom: 2px solid white;
+    padding: 20px 0px;
+    color: white;
+    margin: 0px;
+    width: 100%;
+}
+.container form label.employee {
+    margin-top: 40px;
+}
+#employee {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+.container form button[type="submit"] {
+    color: white;
+    background-color: rgb(204, 28, 57);
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.disabled {
+    background-color: grey !important;
+}
+/* start modal */
+#modal {
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ background-color: rgba(0, 0, 0, 0.3);
+ width:100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#modal .modal-content {
+    background-color: white;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px 60px;
+}
+/* end modal */
