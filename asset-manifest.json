@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Loan-Eligibility-Form/static/css/main.6f256f55.css",
+    "main.js": "/Loan-Eligibility-Form/static/js/main.28262c6b.js",
+    "static/js/453.cd080429.chunk.js": "/Loan-Eligibility-Form/static/js/453.cd080429.chunk.js",
+    "index.html": "/Loan-Eligibility-Form/index.html",
+    "main.6f256f55.css.map": "/Loan-Eligibility-Form/static/css/main.6f256f55.css.map",
+    "main.28262c6b.js.map": "/Loan-Eligibility-Form/static/js/main.28262c6b.js.map",
+    "453.cd080429.chunk.js.map": "/Loan-Eligibility-Form/static/js/453.cd080429.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f256f55.css",
+    "static/js/main.28262c6b.js"
+  ]
+}
