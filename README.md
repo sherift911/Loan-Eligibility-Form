@@ -3,7 +3,7 @@
 A simple React application that simulates a loan request form with validation and modal feedback.
 
 ## 🌐 Live Demo
-[Click Here]( https://sherift911.github.io/Props-Practice-Project/)
+[Click Here](https://sherift911.github.io/Loan-Eligibility-Form/)
 
 ## 📸 Preview
 
